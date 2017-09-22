@@ -14,7 +14,10 @@ Traditional, desired properties of two-sided matching:
 
 	- stability: there exists no pair (a,b) such that a prefer b over M(a) and vice versa
 	- optimality: every element is matched
+
 [random](http://www.prismmodelchecker.org/papers/coopmas12.pdf) two-sided matching based on ranked list of identifier
+
+
 
 - Car manufactures from ActorSpace
 
@@ -32,6 +35,9 @@ Traditional, desired properties of two-sided matching:
 - the meaning of probabilistic program is the expected return value
 - probabilistic inference is the problem of computing the distribution
   which was implicitly specified by a probabilistic program
+- lift the burden of probabilistic modelling and inference for programmers who are not familiar with probability theory and machine learning techniques
+- usally the probabilistic model is Bayesian networks
+- two main approach to inference: static vs dynamic
 
 **Related works**
 
@@ -41,11 +47,14 @@ Traditional, desired properties of two-sided matching:
   is a framework for modelling and verifying concurrent systems based
   on theory rewrite modules.
 - [Problog](https://dtai.cs.kuleuven.be/problog/index.html) is a probability version of ProLog
-- [PScala](https://github.com/Morpheusss/ProbabilisticProgramming)is a prototype implementation of probability model in Scala.
+- [PScala](https://github.com/Morpheusss/ProbabilisticProgramming) is a prototype implementation of probability model in Scala.
 - [Probabilistic Linda](https://pdfs.semanticscholar.org/7218/93ecab62055ff21f2e338ad3f046f1a511a3.pdf)
 - [Probabilistic Klaim](https://link.springer.com/chapter/10.1007/978-3-540-24634-3_11)
 - [Stochastic Klaim](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.523.7487&rep=rep1&type=pdf)
-- [ActorSpace](http://osl.cs.illinois.edu/media/papers/agha-1993-ppopp-actorspaces.pdf) is a programming model based on actors which supports open systems.
+- [ActorSpace](http://osl.cs.illinois.edu/media/papers/agha-1993-ppopp-actorspaces.pdf)
+is a programming model based on actors which supports open systems.
+It unify two scalable models, namely Linda and Actor to come up with
+one-to-many communication style for actors.
 
 
 **Tools**
