@@ -1,6 +1,11 @@
 Document
 ================
 
+**Task**
+
+Implementing ActorSpace programming model in Erlang
+
+
 **Motivating Example**
 
 - Two-sided matching based on attributes
@@ -38,6 +43,7 @@ Traditional, desired properties of two-sided matching:
 - lift the burden of probabilistic modelling and inference for programmers who are not familiar with probability theory and machine learning techniques
 - usally the probabilistic model is Bayesian networks
 - two main approach to inference: static vs dynamic
+
 
 **Related works**
 
