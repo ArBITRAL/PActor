@@ -1,3 +1,4 @@
+%problog 2.1.0.19
 :- use_module(library(lists)).
 
 men([m1,m2,m3,m4,m5]).
