@@ -24,7 +24,7 @@ Traditional, desired properties of two-sided matching:
 
 
 
-- Car manufactures from ActorSpace
+- [Car manufactures](http://www.sciencedirect.com/science/article/pii/S0743731584710604) example in ActorSpace
 
 **Research questions**
 
