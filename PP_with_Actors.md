@@ -69,7 +69,7 @@ one-to-many communication style for actors.
 
 	-- Lossy Channel: The connection between two nodes might be subject to unrealibility. A buffer is introduced between any two nodes, buffering a message with a probability preceive. Therefore, a node forwards message only if one of its in-link buffer has a message
 
-	-- [PRISM model](http://www.prismmodelchecker.org/casestudies/probbroadcast.php)
+	-- [PRISM model](http://www.prismmodelchecker.org/casestudies/prob_broadcast.php)
 
 **Tools**
 
