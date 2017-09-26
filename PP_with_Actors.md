@@ -81,6 +81,9 @@ one-to-many communication style for actors.
 
 	-- [PRISM model](http://www.prismmodelchecker.org/casestudies/prob_broadcast.php)
 
+- [A summary on vairants of broadcast](https://link.springer.com/chapter/10.1007/3-540-28846-5_3)
+
+
 **Tools**
 
 Simulation based probabilistic programming
