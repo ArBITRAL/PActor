@@ -28,7 +28,14 @@ Traditional, desired properties of two-sided matching:
 
 **Research questions**
 
-- ways to introduce probability to actors
+- ways to introduce probability to actor space
+
+- similar to the idea of probabilistic broadcast, when an actor is forwared a
+  message from CoordinatorActorSpace, it can process the message with a probability p
+
+- design decision:
+  if an actor rejects a message, it can forward that message to another actor in the same space?
+
 
 
 **Background**
