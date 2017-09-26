@@ -61,7 +61,15 @@ Traditional, desired properties of two-sided matching:
 is a programming model based on actors which supports open systems.
 It unify two scalable models, namely Linda and Actor to come up with
 one-to-many communication style for actors.
+- [Probabilistic Broadcast protocol](https://link.springer.com/chapter/10.1007/1181476412) consider several cases of uncertainty
 
+	-- Gossiping: the source node broadcast a message to all neighbors. These nodes decide whether or not to forward the recived message to all of their neighbors with a probability psend
+
+	-- Gossiping with collision: if more than one neighbors send their messages to the same node, then this node is considered receiving noise and will not act
+
+	-- Lossy Channel: The connection between two nodes might be subject to unrealibility. A buffer is introduced between any two nodes, buffering a message with a probability preceive. Therefore, a node forwards message only if one of its in-link buffer has a message
+
+	-- [PRISM model](http://www.prismmodelchecker.org/casestudies/probbroadcast.php)
 
 **Tools**
 
