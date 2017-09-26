@@ -24,7 +24,7 @@ Examples:
 
 [random](http://www.prismmodelchecker.org/papers/coopmas12.pdf) two-sided matching based on ranked list of identifier
 
-[probability on pairwise preferences](https://www.ac.tuwien.ac.at/files/tr/ac-tr-17-006.pdf)
+[probability](https://www.ac.tuwien.ac.at/files/tr/ac-tr-17-006.pdf) two-sided matching based on on pairwise preferences [problog example](https://github.com/ArBITRAL/PActor/blob/master/code/ppairwise_example.pl)
 
 
 - [Car manufactures](http://www.sciencedirect.com/science/article/pii/S0743731584710604) example in ActorSpace
