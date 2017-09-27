@@ -3,7 +3,9 @@ Document
 
 **Task**
 
-Implementing ActorSpace programming model in Erlang
+- Implementing ActorSpace programming model in Erlang
+
+- Consider the probability extension of attribute-based communication paradigm in this work [CARMA](https://arxiv.org/pdf/1509.08560.pdf)
 
 
 **Motivating Example**
