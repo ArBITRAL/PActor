@@ -1,3 +1,4 @@
+%% Taken from Internet
 -module(test).
 -export([test/0, slave/2]).
 -import(
